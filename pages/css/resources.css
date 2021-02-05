@@ -1,0 +1,166 @@
+.resources__page .hero__container {
+    min-height: 300px;
+    padding-top: 160px;
+    padding-bottom: 50px;
+}
+.resources__page .hero__content{
+    padding-left: 30px!important;
+}
+.resources__page .hero__content p {
+    max-width: 520px;
+}
+#resources__categories{
+    background: #F7F7F7;
+    padding: 80px 0;
+}
+#resources__categories .container{
+    padding:  0 80px;
+}
+#resources__categories .view__resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+#resources__categories .view__resources p{
+    position: relative;
+
+}
+#resources__categories .view__resources p:after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background: #00a99e;
+    left: 0;
+    right: 0;
+}
+#resources__categories .resource__category{
+    position: relative;
+}
+#resources__categories .resource__category {
+    padding: 0px;
+}
+#resources__categories .resource__category .category__image{
+    width: 100%;
+}
+#resources__categories .resource__category:nth-child(odd) .category__image{
+    padding: 0 22px 0 0;
+}
+#resources__categories .resource__category:nth-child(even) .category__image {
+    padding: 0 0 0 22px;
+}
+#resources__categories .resource__category:nth-child(even) .resource__category__internal__meta{
+    margin-left: 22px;
+}
+#resources__categories .resource__category__internal__meta{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    width: auto;
+    display: flex;
+    padding: 10px 30px 10px 20px;
+}
+#resources__categories .resource__category__internal__meta img {
+    max-height: 30px;
+    width: 30px;
+}
+#resources__categories .resource__category__internal__meta p{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+}
+#resources__categories .resource__category{
+    margin: 23px 0;
+}
+#resources__categories .resource__category:last-child .resource__category__internal__meta{
+    width: auto;
+}
+@media(max-width: 768px){
+    #resources__categories .container {
+        padding: 0px 40px;
+    }
+    #resources__categories {
+        padding: 60px 0;
+    }
+    #resources__categories .resource__category__internal__meta {
+        width: 100%;
+    }
+    #resources__categories .resource__category:nth-child(odd) .category__image {
+        padding: 0 0 0 0;
+    }
+    #resources__categories .resource__category:nth-child(even) .category__image {
+        padding: 0 0 0 0;
+    }
+    #resources__categories .resource__category:nth-child(even) .resource__category__internal__meta {
+        margin-left: 0px;
+    }
+    #resources__categories .resource__category__internal__meta p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #resources__categories .resource__category:last-child .resource__category__internal__meta {
+        width: 100%;
+    }
+    #resources__categories .resource__category {
+        margin: 0px 0;
+    }
+    #resources__categories .resource__category__internal__meta {
+        background: #ffffffb3;
+    }
+}
+@media(max-width: 600px){
+    #resources__categories .resource__category__internal__meta {
+        background: #ffffff;
+    }
+}
+@media(max-width: 900px) and (orientation: landscape ){
+    .resources__page .hero__container {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    #resources__categories .resource__category__internal__meta p {
+        font-size: 12px;
+    }
+    #resources__categories .resource__category:last-child .resource__category__internal__meta{
+        width: 100%;
+    }
+    .resources__page .hero__container .container {
+        padding: 0 13px;
+    }
+    #resources__categories .container {
+        padding: 0 10px;
+    }
+    #resources__categories {
+        padding: 40px 0;
+    }
+    #resources__categories .resource__category__internal__meta {
+        bottom: -1px;
+        left: -1px;
+        width: 100%;
+    }
+}
+@media(max-width: 667px) and (orientation: landscape ){
+    .resources__page .hero__container .container {
+        padding: 0 40px;
+    }
+    #resources__categories .resource__category__internal__meta {
+        bottom: 0px;
+        left: 0px;
+    }
+    #resources__categories .resource__category {
+        margin: 20px 0;
+    }
+    #resources__categories {
+        padding: 40px 0 70px;
+    }
+}
+@media (max-width: 580px) and (orientation: landscape) {
+    #resources__categories {
+        padding: 40px;
+    }
+}

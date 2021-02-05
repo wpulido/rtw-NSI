@@ -1,0 +1,16 @@
+<svg id="Componente_4_1" data-name="Componente 4 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="150.5" viewBox="0 0 20 150.5">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_444" data-name="Trazado 444" d="M6-87H8V-5H6Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_443" data-name="Trazado 443" d="M-150-5H1290V-815H-150Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_945" data-name="Grupo 945" transform="translate(3.5 155.5)" clip-path="url(#clip-path)">
+    <g id="Grupo_944" data-name="Grupo 944" clip-path="url(#clip-path-2)">
+      <path id="Trazado_442" data-name="Trazado 442" d="M1-92H13V0H1Z" fill="#fff"/>
+    </g>
+  </g>
+  <text className="poppins" id="SCROLL" transform="translate(5) rotate(90)" fill="#fff" font-size="14" font-family="'Poppins', sans-serif" font-weight="700" letter-spacing="-0.024em"><tspan x="0" y="0">SCROLL</tspan></text>
+</svg>

@@ -1,0 +1,198 @@
+@media(max-width: 1700px){
+    .floating__screen__container{
+        transform: scale(0.95);
+    }
+}
+.floating__screen__container{
+    position: relative;
+}
+.floating__screen{
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    bottom: 0;
+    background: #F7F7F7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 40px!important;
+}
+.subtitle h3{
+    max-width: 320px;
+    font-size: 24px;
+}
+.resources{
+    background: #015D5D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+    left: 20px;
+}
+.campaign{
+    background: white;
+    padding: 35px;
+    margin: 30px 0;
+}
+.campaign__image img{
+    width: 100%;
+    padding-right: 30px;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 15px;
+}
+.campaign__body p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.campaig__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 30px!important;
+}
+.campaig__content .divider{
+    width: 95px;
+    height: 3px;
+    background: #00a99e;
+    margin-bottom: 20px;
+}
+.campaign__title h3{
+    margin-bottom: 20px;
+}
+.campaign__button svg{
+    height: 10px;
+    position: relative;
+    left: 10px;
+    top: -1px;
+}
+.resources__icon img{
+    max-width: 142px;
+    margin-bottom: 45px;
+}
+.resources{
+    padding: 50px!important;
+}
+
+
+#Componente_3_1  .st0{fill:#00A99E;}
+#Componente_3_1  .st1{fill:#FFFFFF;}
+#Componente_3_1  .st2{font-family:'Poppins', sans-serif; font-weight: bold;}
+#Componente_3_1  .st3{font-size:12px;}
+.resources__button{
+    width: 100%;
+    position: relative;
+    top: 25px;
+}
+#fsc_open svg {
+    enable-background:new 0 0 69 328;
+}
+#fsc_open svg{
+    height: 330px;
+}
+#Componente_2_1 {
+    fill: #00a99e;
+}
+.close_fs{
+    right: -30px!important;
+    border: solid 1px #015D5D!important;
+}
+.close_fs p{
+    color: #015D5D!important;
+}
+
+.floating__screen__opener{
+    position: absolute;
+    left: -69px;
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    .subtitle{
+        padding-left: 100px!important;
+    }
+    .campaign__image img{
+        display: none;
+    }
+    .resources__icon img{
+        max-width: auto;
+        width: auto;
+        height: 70px;
+    }
+    .resources{
+        padding: 40px!important;
+    }
+    .resources{
+        left: 0px;
+    }
+    .resources__button{
+        top: 0px;
+    }
+    .close_fs{
+        right: -20px!important;
+    }
+}
+@media(max-width: 600px){
+    .campaign__body, .resources__icon{
+        display: none;
+    }
+    .campaign{
+        margin: 0;
+    }
+    .resources{
+        margin: 0;
+    }
+    .title{
+        padding: 0px!important;
+        margin: 0!important;
+    }
+    .floating__screen__container{
+        margin: 0 20px;
+    }
+    .subtitle{
+        padding-left: 0px!important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title h2{
+        font-size: 33px;
+        padding-left: 0px;
+        line-height: 30px;
+    }
+    .floating-screen .campaign{
+        background: white;
+        padding: 21px 10px;
+    }
+    .close_fs{
+        right: -40px!important;
+    top: -40px;
+    }
+    .floating__screen__opener{
+        left: -30px;
+    }
+    .campaig__content{
+        padding: 0px!important;
+    }
+    .floating__screen{
+        padding: 25px;
+    }
+    .floating__screen__opener svg{
+        width: 30px;
+
+    }
+}
+@media (max-width: 900px) and (orientation: landscape){
+    .floating__screen__opener{
+        display: none;
+    }
+}

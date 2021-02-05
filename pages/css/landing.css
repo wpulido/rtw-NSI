@@ -1,0 +1,925 @@
+.black__box{
+    background: black;
+    color: white;
+    padding: 50px;
+}
+.black__box.teal{
+    background: #015D5D;
+}
+.one__container p{
+    padding-right: 20px;
+}
+.mobile__hidden{
+    display: none!important;
+}
+.button__mobile{
+    display: none;
+}
+
+.white__box p a{
+    text-decoration: underline;
+}
+.divider.--white{
+    height: 5px;
+    background: white;
+    width: 100px;
+    margin-top: 40px;
+}
+#cause h2{
+    margin-bottom: 60px;
+}
+#cause__new{
+    background: #EDEDED;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 220px 0 280px;
+}
+#cause__new h2{
+    margin-top: 20px;
+}
+
+#cause__new .right p:nth-child(1){
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    color: #015D5D;
+}
+#cause__new .left .black__box{
+    position: relative;
+    top: 100px;
+}
+#who-we-are .funders{
+    margin-top: 100px;
+}
+@media(max-width: 4000px){
+    #cause__new > .container-fluid > .row{
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        min-height: 100vh;
+    }
+    #cause__new .one__fluid  .image img{
+        max-width: 530px;
+        height: 80%;
+        left: -400px;
+        position: relative;
+        top: -190px;
+    }
+    #cause__new .one__fluid .floating.col-lg-4{
+        flex: 0 0 33.333333%!important;
+        max-width: 33.333333%!important;
+        padding: 130px 0 40px!important;
+    }
+
+}
+@media(max-width: 4000px){
+    #cause__new .one__fluid  .image img{
+        left: -420px;
+    }
+    
+}
+@media(max-width: 3000px){
+    #cause__new .one__fluid  .image img{
+        left: -270px;
+    }
+}
+@media(max-width: 2000px){
+    #cause__new .left .black__box {
+        top: 30px;
+    }
+    #cause__new .one__fluid  .image img{
+        left: -120px;
+    }
+}
+@media(max-width: 1900px){
+    #cause__new .one__fluid  .image img{
+        max-width: 100%;
+        height: 100%;
+        left: 0;
+        position: relative;
+        top: 0;
+    }
+    #cause__new .one__fluid .floating.col-lg-4 {
+
+        padding: 130px 0 100px!important;
+    }
+}
+
+#cause__new .one__container {
+    position: relative;
+}
+#main{
+    background: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -100px;
+    padding: 100px 0;
+    background-size: cover!important;
+    background-position: center!important;
+}
+#fellowship .internal p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+@media(max-width: 4000px){
+    .floating__svg {
+        position: absolute;
+        bottom: 0px;
+        right: 37%;
+        display: none;
+    }
+}
+
+@media(max-width: 3000px){
+    .floating__svg {
+        right: 34%;
+    }
+}
+@media(max-width: 2000px){
+    .floating__svg {
+        right: 25%;
+    }
+}
+@media(max-width: 1440px){
+    .floating__svg {
+        right: 20%;
+    }
+}
+@media(max-width: 1440px){
+    .floating__svg {
+        right: 14%;
+    }
+}
+#main .col-lg-12{
+    padding: 120px 20px 0px;
+}
+#main h1{
+    position: relative;
+    left: -5px;
+    margin-bottom: 40px;
+}
+
+#main p:nth-child(3){
+    max-width: 650px;
+    margin-top: 40px;
+}
+#resources{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 150px 0;
+}
+#resources p:nth-child(1){
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+}
+#resources h2{
+    margin-bottom: 30px;
+}
+.resource p{
+    line-height: 15px;
+}
+#resources button{
+    width: 100%;
+    padding: 17px 25px;
+    font-size: 20px;
+    text-transform: unset;
+    text-align: left;
+    background: #EDEDED;
+    color: #AAAAAA!important;
+    border: none!important;
+
+}
+#resources button.active{
+    background: #015D5D;
+    color: white!important;
+}
+.resource__arrow path{
+    fill: #015D5D;
+}
+.white__box button{
+    width: 95%;
+    padding: 17px 0!important;
+    font-size: 12px!important;
+    font-weight: bold;
+    color: #015D5D!important;
+}
+#resources .button__wrapper:nth-child(2){
+    padding-right: 0px;
+}
+#resources .button__wrapper:nth-child(3){
+    padding-left: 0px;
+}
+#resources .resource__wrapper{
+    margin-top: 30px;
+}
+.resource{
+    border-bottom: solid 1px #707070;
+    position: relative;
+    padding-bottom: 8px;
+    transition: all ease-in-out 0.5s;
+}
+.resource__arrow.begin{
+    width: 0px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: -15px;
+    bottom: 0;
+    margin: auto;
+    right: unset;
+    overflow: hidden;
+    transition: width ease-in-out 0.5s;
+}
+.resource:hover .resource__arrow.begin{
+    width: 30px;
+}
+.resource__arrow{
+    position: absolute;
+    right: 0;
+    left: unset;
+    top: -15px;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    transition: width ease-in-out 0.5s;
+}
+.resource:hover .resource__arrow{
+    width: 0px;
+}
+.inner__resource{
+    position: relative;
+    transition: all ease-in-out 0.5s;
+    left: 0px;
+}
+.resource:hover .inner__resource{
+    left: 60px;
+}
+.resource{
+    margin-top: 30px;
+    display: flex;
+    padding: 0;
+    padding-bottom: 15px;
+    min-height: 90px;
+}
+.resource h3{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+#who-we-are{
+    padding: 150px 0;
+    background: #EDEDED;
+}
+.logo.hidden{
+    opacity: 0;
+}
+.logo__wrapper a{
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
+}
+
+.logo__wrapper{
+    margin-top: 30px;
+}
+
+.logo img{
+    width: 100%;
+    padding: 0 30px;
+    
+}
+.logo__wrapper a:nth-child(1) img{
+    width: auto;
+}
+.logo__wrapper a:nth-child(3) img{
+    max-width: 160px;
+}
+.logo__wrapper a:nth-child(4) img{
+    max-width: 150px;
+}
+.logo__wrapper a:nth-child(5) img{
+    max-width: 200px;
+    padding: 0;
+}
+.logo__wrapper a:nth-child(11) img{
+    max-width: 140px;
+    padding: 0;
+}
+.logo__wrapper a:nth-child(6) img{
+    padding: 0 15px;
+    max-width: 115px;
+}
+.logo__wrapper a:nth-child(8) img{
+    max-width: 160px;
+}
+.logo__wrapper a:nth-child(9) img{
+    max-width: 150px;
+}
+.logo__wrapper a:nth-child(10) img{
+    max-width: 150px;
+}
+.logo__wrapper a:nth-child(12) img{
+    max-width: 170px;
+}
+.logo__wrapper a:nth-child(13) img{
+    max-width: 155px;
+}
+.logo__wrapper a:nth-child(15) img{
+    max-width: 160px;
+}
+.logo__wrapper a:nth-child(16) img{
+    padding: 0px;
+    max-width: 90px;
+}
+.logo__wrapper a:nth-child(19) img{
+    padding: 0px;
+    max-width: 90px;
+}
+.logo__wrapper a:nth-child(17) img{
+    max-width: 160px;
+}
+.logo__wrapper a:nth-child(18) img{
+    max-width: 130px;
+}
+
+.logo__wrapper a:nth-child(22) img{
+    padding: 0 13px;
+    max-width: 120px;
+}
+.logo__wrapper a:nth-child(24) img{
+    max-width: 140px;
+}
+.logo__wrapper a:nth-child(25) img{
+    max-width: 170px;
+}
+.logo__wrapper a:nth-child(26) img{
+    max-width: 150px;
+}
+.logo__wrapper a:nth-child(27) img{
+    max-width: 200px;
+}
+.logo__wrapper a:nth-child(28) img{
+    max-width: 170px;
+}
+.logo__wrapper a:nth-child(29) img{
+    max-width: 130px;
+}
+.logo__wrapper a:nth-child(30) img{
+    max-width: 100px;
+}
+
+#fellowship p:nth-child(3){
+    margin-top: 50px;
+    max-width: 700px;
+}
+#fellowship{
+    background: #ffffff;
+    padding: 70px 0 100px;
+}
+#fellowship .one , #fellowship .two{
+    background: #ffffff;
+    color: #015D5D;
+    padding: 10px 0;
+}
+#fellowship button{
+    margin-top: 35px;
+}
+#fellowship .container .left{
+    padding: 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#fellowship .container .left .row{
+    width: 100%;
+    margin: auto;
+}
+#fellowship .container .left .left.internal h2{
+    margin: 0px;
+}
+#fellowship .container .left .right.internal h2{
+    margin: 0px;
+}
+#fellowship .white__box h3{
+    margin-bottom: 10px;
+}
+#fellowship .white__box{
+    background: #015D5D;
+    padding: 100px;
+    position: relative;
+    margin-top: -60px;
+    color: white;
+}
+#fellowship .white__box p{
+    margin-top: 0px;
+}
+#who-we-are p:nth-child(1){
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+}
+#resources .title__wrapper{
+    position: relative;
+    left: -2px;
+}
+.resources__item{
+    display: none;
+}
+.resources__item.active{
+    display: block;
+}
+#cause{
+    padding: 160px 0;
+}
+#cause .image img{
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+}
+@media(max-width: 1500px){
+    #cause__new .one__fluid .image img {
+        max-width: -webkit-fill-available;
+        height: 100%;
+        left: 0px;
+        position: relative;
+        top: -150px;
+        object-fit: contain;
+        width: auto;
+    }
+    #cause__new .left .black__box {
+        top: 160px;
+        left: 80px;
+    }
+    #cause__new .one__fluid .floating.col-lg-4 {
+
+        padding: 130px 0 40px!important;
+    }
+    #main{
+        padding: 0px 0;
+    }
+    #main .col-lg-12 {
+        padding: 180px 20px 100px;
+    }
+}
+@media(max-width: 1280px){
+    #fellowship .white__box {
+        left: 10px;
+    }
+    #fellowship .container:nth-child(1){
+        position: relative;
+    }
+    #main .container{
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 1024px){
+    #cause__new .one__fluid .floating.col-lg-4 {
+        padding: 130px 0 130px!important;
+    }
+    #cause .image img {
+        top: 305px;
+    }
+    .header {
+        padding: 20px 0;
+    }
+    #main{
+        margin-top: -140px;
+        overflow: hidden;
+    }
+    #cause__new .left .black__box {
+        top: 0;
+    }
+    #cause__new .one__container {
+        position: relative;
+    }
+    .black__box {
+        padding: 50px 30px;
+        left: 50px;
+    }
+    #cause__new .right{
+        top: 130px;
+    }
+    #fellowship .white__box {
+        left: 0px;
+        padding: 50px 30px;
+    }
+}
+@media(max-width: 768px){
+    #cause__new .one__fluid .image img {
+        top: 0;
+        width: 100%;
+    }
+    #cause .image img{
+        position: relative;
+        top: 0px;
+        margin-top: 50px;
+    }
+    #cause__new {
+        padding: 0px 0 80px;
+    }
+    .header {
+        padding: 30px 0;
+    }
+    #main{
+        margin-top: -190px;
+    }
+
+    #cause__new .one__fluid .floating.col-lg-4{
+        flex: 100%!important;
+        max-width: 100%!important;
+        padding: 0px!important;
+    }
+    .navbar-collapse{
+        position: fixed;
+        top: 90px;
+        width: 100%;
+        left: 0px;
+        padding: 45px;
+        background: white;
+        height: auto;
+        color: black;
+    }
+    .header .navbar-collapse p, .header .navbar-collapse a, .header .navbar-collapse ul {
+        color: black;
+        margin: 10px 0;
+    }
+
+    .navbar-toggler{
+        display: none;
+    }
+    .main__nav{
+        display: none;
+    }
+
+    #cause__new .right p:nth-child(3) {
+        padding-left: 0px;
+    }
+    #cause__new > .container-fluid > .row {
+        position: relative;
+        width: 100%;
+        padding: 0!important;
+        margin: 0;
+    }
+
+    .one__fluid{
+        padding: 0px 0 150px;
+    }
+    #cause__new .one__container{
+        position: relative;
+        margin-top: -150px;
+    }
+    #cause__new .left .black__box{
+        left: 0px;
+    }
+    #cause__new .right {
+        top: 60px;
+    }
+    #fellowship .one{
+        display: none;
+    }
+    #fellowship .container:nth-child(1) {
+        left: 0;
+    }
+    #fellowship .container .left {
+        padding: 50px 0px 50px;
+    }
+    #who-we-are {
+        padding: 150px 30px;
+    }
+    .bottom.header ul{
+        display: none!important;
+    }
+
+    #resources button {
+        font-size: 14px;
+    }
+    #fellowship .white__box {
+        top: 0;
+        padding: 100px;
+        margin-top: -20px;
+    }
+    .header ul{
+        position: absolute;
+        top: 25px;
+        background: #06a89e;
+        align-items: flex-end;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    #main .col-lg-12 {
+        padding: 200px 0px;
+    }
+    #fellowship {
+        padding: 100px 30px;
+    }
+    .logo__wrapper a {
+        width: calc(100% / 3);
+    }
+
+}
+@media(max-width: 500px){
+    .mobile__hidden{
+        display: flex!important;
+    }
+    #resources .resource__wrapper {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    #resources button {
+        background: #015d5d;
+        color: #ffffff!important;
+        margin: 10px 0;
+        text-align: center;
+        position: relative;
+        padding: 30px 20px;
+    }
+    .button__mobile{
+        display: block;
+    }
+    .button__desktop{
+        display: none;
+    }
+    #resources button:after{
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 12px;
+        margin: auto;
+        transition:  transform ease-in-out 0.4s;
+    }
+    #resources button.turn__arrow:after{
+        transform: rotate(90deg);
+    }
+    .resource__arrow {
+        top: 35px;
+    }
+    #cause__new > .container-fluid > .row{
+        display: none;
+    }
+    .one__fluid .black__box{
+        display: none;
+    }
+    .one__fluid .image{
+        display: none!important;
+    }
+    #fellowship {
+        padding: 0px 0px 0;
+    }
+    #fellowship .image__top{
+        padding: 0px;
+        height: 500px;
+    }
+    #fellowship .image__top img{
+        width: 100%;
+        object-fit: cover;
+    }
+    #fellowship .box__text{
+        padding: 0px 30px 0;
+        margin-top: -80px;
+        margin-bottom: 60px;
+    }
+    #fellowship .two{
+        padding: 0 30px 0;
+    }
+    #fellowship .second .left{
+        padding: 70px 30px 90px 30px;
+    }
+    #cause__new .left .black__box {
+        left: 0px;
+        width: 100%;
+        margin: 0 10px;
+        margin-top: 110px;
+        padding: 80px 50px;
+    }
+    #fellowship button:nth-child(1){
+        margin-top: 20px;
+    }
+    #cause__new {
+        padding: 0px 0px 0px;
+    }
+    #cause__new .right{
+        padding: 0px 30px 0px;
+    }
+    #resources {
+        padding: 80px 15px;
+    }
+    #cause {
+        padding: 80px 0px 0;
+    }
+    #cause .image{
+        padding: 0px;
+    }
+    #cause .title{
+        padding: 0px 30px 0px;
+    }
+    #cause .text{
+        padding: 0px 30px 0px;
+    }
+    .resource__arrow.begin {
+        top: 35px;
+    }
+    #cause__new {
+        min-height: auto;
+    }
+    .one__fluid {
+        padding: 30px 0 70px;
+    }
+    #cause__new .right {
+        top: 0px;
+    }
+    #cause__new .one__container {
+        margin-top: 50px;
+    }
+    #cause__new .right p:nth-child(3) {
+        margin-top: 20px;
+    }
+    #fellowship .white__box {
+        padding: 60px 40px;
+    }
+    #who-we-are {
+        padding: 80px 30px;
+    }
+    .logo.hidden{
+        display: none;
+    }
+    #resources .button__wrapper:nth-child(2) {
+        padding-right: 15px;
+    }
+    #resources .button__wrapper:nth-child(3) {
+        padding-left: 15px;
+    }
+    .bottom.header .navbar{
+        justify-content: center;
+    }
+    .header.bottom {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .header.container{
+        padding: 0px!important;
+    }
+    .bottom.header button {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .floating__svg {
+        bottom: -40px;
+        display: none;
+    }
+    h1 {
+        font-size: 55px;
+        line-height: 52px;
+    }
+    #main h1 {
+        left: -2px;
+    }
+    #main .col-lg-12 {
+        padding: 10px 0px;
+    }
+    .logo__wrapper a {
+        width: calc(100% / 2);
+    }
+
+    .logo img{
+        width: 100%;
+        max-width: 100%;
+        padding: 0 8px;
+    }
+    
+    .navbar{
+        padding: 0px;
+    }
+    .navbar-brand{
+        margin-right: 0px;
+        position: relative;
+        left: 10px;
+    }
+    .header .btn.main-btn {
+        font-size: 11px;
+    }
+    #main {
+        margin-top: -112px;
+        padding: 120px 10px 100px;
+        min-height: 500px;
+    }
+    #resources .col-lg-4{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 360px){
+    #main {
+        padding: 25px 10px 120px;
+    }
+}
+@media (max-width: 900px) and (orientation: landscape) {
+    .header {
+        padding: 15px 0;
+    }
+    #cause__new .one__fluid .floating.col-lg-4{
+        flex: 100% 1!important;
+        padding: 0px!important;
+        max-width: 100%!important;
+    }
+    #main{
+        margin-top: -185px;
+        padding: 160px 0;
+    }
+    .header ul{
+        display: none;
+    }
+    .navbar-collapse{
+        position: fixed;
+        top: 90px;
+        width: 100%;
+        left: 0px;
+        padding: 45px;
+        background: white;
+        height: auto;
+        color: black;
+    }
+    #cause__new .one__container {
+        position: relative;
+        margin-top: -120px;
+    }
+    .header .navbar-collapse p, .header .navbar-collapse a, .header .navbar-collapse ul {
+        color: black;
+        margin: 10px 0;
+    }
+
+    .navbar-toggler{
+        display: none;
+    }
+    .main__nav{
+        display: none;
+    }
+
+    #cause__new .right p:nth-child(3) {
+        padding-left: 0px;
+    }
+    #cause__new > .container-fluid > .row {
+        position: relative;
+        width: 100%;
+        padding: 0!important;
+        margin: 0;
+    }
+    .one__fluid{
+        padding: 0px;
+        padding-bottom: 150px;
+    }
+    #cause__new .left .black__box{
+        left: 0px;
+    }
+    #cause__new .right {
+        top: 60px;
+    }
+    #fellowship .one{
+        display: none;
+    }
+    #fellowship .container:nth-child(1) {
+        left: 0;
+    }
+    #fellowship .container .left {
+        padding: 50px 30px 50px;
+    }
+    #fellowship .white__box {
+        left: 0px;
+        padding: 100px;
+    }
+    #resources button {
+        font-size: 14px;
+    }
+
+    #fellowship {
+        padding: 100px 0 60px;
+    }
+    .logo__wrapper a {
+        width: calc(100% / 3);
+    }
+
+}

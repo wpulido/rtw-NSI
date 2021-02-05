@@ -1,0 +1,38 @@
+{
+  "name": "repair-stm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.6.0",
+    "image-trace-loader": "^1.0.2",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "jquery": "^3.5.1",
+    "next": "9.4.4",
+    "next-compose-plugins": "^2.2.1",
+    "next-on-netlify": "^2.8.7",
+    "next-optimized-images": "^2.6.2",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.3",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.14.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-script-tag": "^1.1.2",
+    "react-slick": "^0.27.14",
+    "reactstrap": "^8.9.0",
+    "slick-carousel": "^1.8.1",
+    "webp-loader": "^0.6.0"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next-purgecss": "^4.0.0"
+  }
+}

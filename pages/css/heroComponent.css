@@ -1,0 +1,208 @@
+.hero__container {
+    position: relative;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__container a{
+    text-decoration: underline;
+    color: #06a89e;
+}
+.who__page .hero__container a {
+    color: #005d5c;
+}
+@media(max-width: 1700px){
+    .hero__container .container{
+        width: 100%;
+        max-width: 100%;
+        padding-left: 9.5%;
+    }
+}
+.donation__page .hero__content h4{
+    margin-top: 10px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.donation__page .hero__content p{
+    padding-right: 40px;
+    margin-bottom: 25px;
+}
+.who__page .hero__container{
+    margin-top: 30px;
+}
+.who__page .hero__content p{
+    margin: 0;
+}
+.hero__container .stm__background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__container .hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__container .hero__content__image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__container .hero__content__image img{
+    width: 100%;
+}
+.hero__content__title h2{
+    font-size: 65px;
+    line-height: 70px;
+}
+.impact__page .hero__content h4{
+    max-width: 540px;
+}
+.impact__page .hero__content p{
+    max-width: 420px;
+    margin-bottom: 50px;
+}
+.impact__page .hero__content{
+    margin-top: 150px;
+}
+.impact__page .hero__container .container{
+    padding-bottom: 50px;
+}
+.impact__page .main-btn{
+    padding: 9px 15px;
+    max-width: 279px;
+    width: 100%;
+    text-align: left;
+}
+.impact__page .main-btn strong{
+    margin-left: 15px;
+}
+.impact__page .hero__content__button {
+    margin-top: 7px;
+}
+.hero__content h4{
+    margin-top: 25px;
+    color: #00a99e;
+    font-weight: 500;
+    max-width: 380px;
+    line-height: 30px;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.hero__content p{
+    font-size: 16px;
+}
+.hero__content__button{
+    margin-top: 15px;
+}
+@media (max-width: 1280px){
+    .hero__container .container {
+        padding-left: 4.5%;
+    }
+}
+@media(max-width: 768px){
+    .impact__page .hero__content {
+        margin-top: 0px;
+    }
+
+
+}
+@media(max-width: 600px){
+    .impact__page .hero__container {
+        padding: 100px 20px 50px;
+    }
+    .hero__container{
+        height: auto;
+        min-height: auto!important;
+        padding: 100px 20px;
+    }
+    .hero__container .container {
+        padding: 0 0px!important;
+    }
+    .hero__content__title h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .hero__container .hero__content__image img{
+        padding-left: 0px;
+        margin: 50px 0 20px 0;
+    }
+
+}
+@media(max-width: 667px) and (orientation: landscape ){
+    .impact__page .hero__content {
+        margin-top: 120px;
+        padding: 0 80px 30px;
+    }
+    .hero__container .hero__content__image img {
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .hero__container .container {
+        padding-left: 0%;
+    }
+    .impact__page .hero__container .container {
+        padding-bottom: 0px;
+    }
+    #act-now {
+        padding: 70px 0;
+    }
+    .bottom__hero .hero__content__title h2 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .who__page .hero__container.bottom__hero .hero__content {
+        padding: 50px 70px 30px 70px;
+    }
+    .hero__container.bottom__hero {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 580px) and (orientation: landscape) {
+    .impact__page .hero__content {
+        margin-top: 0px;
+        padding: 0 40px 30px;
+    }
+    .impact__page .hero__container {
+        padding: 100px 10px 50px;
+    }
+    .impact__page .hero__container .hero__content__image {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+    .hero__content__title h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .hero__container .hero__content{
+        margin-top: 100px;
+        padding-left: 6px;
+    }
+    .hero__container .hero__content__image img {
+        top: -100px;
+        position: relative;
+    }
+    .who__page .hero__container .hero__content {
+        margin-top: -100px;
+    }
+    .experience__page .hero__container .hero__content {
+        margin-top: -70px;
+    }
+    .experience__page .hero__container .hero__content__image img {
+        top: -90px;
+        position: relative;
+    }
+    .hero__content p br {
+        display: none;
+    }
+}

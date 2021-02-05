@@ -1,0 +1,221 @@
+.header ul, .header li{
+    list-style-type: none;
+}
+.header .main__nav{
+    font-weight: 600;
+}
+
+.header__nav.open{
+    display: flex!important;
+}
+.header p, .header a, .header ul {
+    color: white;
+    font-weight: 400;
+}
+.donate__internal__button{
+    display: block;
+}
+.toggle__menu__button{
+    display: none;
+}
+.header ul{
+    margin: 0px!important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.header{
+    position: relative;
+    z-index: 3;
+    background: #00a99e;
+}
+.header.bottom{
+    background: #015D5D;
+    padding: 40px 80px;
+}
+.header .navbar{
+    padding: 0px;
+}
+.header .nav-item{
+    margin: 10px 0;
+    position: relative;
+}
+.header .main__nav .nav-item:after{
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header .nav-item:nth-child(4):after{
+    display: none;
+}
+
+.header .btn.main-btn{
+    padding: 3px 25px;
+}
+.nav__brand .top__logo{
+    width: 180px;
+    position: absolute;
+    top: 0px;
+}
+.bottom.header ul {
+    margin: 0 0 0 auto!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    width: auto;
+}
+.main__nav li:last-child{
+    display: none;
+}
+.bottom.header button{
+    margin-left: 50px;
+    color: #015D5D;
+    text-transform: unset;
+}
+.menu__burguer{
+    width: 40px;
+    height: 2px;
+    background: white;
+}
+@media(max-width: 1024px){
+    footer .main__nav a {
+        padding: 0!important;
+        margin: 0px 5px;
+    }
+    .header__nav.main__nav a {
+        padding: 0!important;
+        margin: 0px 10px;
+    }
+}
+@media(max-width: 1000px){
+    .header .container{
+        max-width: 100%!important;
+    }
+    .main__nav li:last-child {
+        display: flex;
+    }
+    .header__nav.main__nav{
+        padding: 90px 35px;
+    }
+    .header__nav.main__nav{
+        display: none;
+    }
+    .nav__brand .top__logo {
+        left: 20px;
+    }
+    .donate__internal__button{
+        display: none;
+    }
+    .toggle__menu__button {
+        display: flex;
+    }
+    .header__nav.main__nav li:last-child{
+        background: #015d5d;
+        color: #fff;
+        transition: all .3s ease-in-out;
+        border: 2px solid #015d5d;
+        right: 10px;
+    }
+    .header .main__nav .nav-item:after{
+        display: none;
+    }
+    .toggle__menu__button{
+        position: absolute;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        cursor: pointer;
+        top: 15px;
+    }
+    .menu__burguer{
+        pointer-events: none;
+    }
+    .menu__burguer__two{
+        position: relative;
+        top: 5px;
+    }
+    .menu__burguer__three{
+        position: relative;
+        top: 10px;
+    }
+    .nav__brand .top__logo {
+        z-index: 9;
+    }
+}
+@media(max-width: 600px){
+    .toggle__menu__button{
+
+        top: 0;
+    }
+}
+@media(max-width: 600px){
+    .nav__brand .top__logo {
+        left: 4px;
+    }
+    .donate__internal__button{
+        display: none;
+    }
+    .main__nav li:last-child{
+        display: block;
+    }
+    .header .main__nav .nav-item:after{
+        display: none;
+    }
+    .nav__brand .top__logo {
+        width: 158px;
+        top: -10px;
+        z-index: 9;
+    }
+    .header.bottom {
+        padding: 40px 15px;
+    }
+    .footer__donation {
+        background: #F7F7F7;
+        padding: 70px 15px;
+        margin-top: 60px;
+    }
+}
+@media(max-width: 360px){
+    .header__nav.main__nav {
+        padding: 100px 15px;
+    }
+    .header ul {
+        align-items: center!important;
+    }
+    .header__nav.main__nav li:last-child{
+        right: 0px;
+    }
+}
+@media (max-width: 900px) and (orientation: landscape) {
+    .header .navbar {
+        padding: 8px 0px;
+    }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+    .nav__brand .top__logo {
+        width: 115px;
+        top: 10px;
+        left: 30px;
+    }
+    .header__nav.main__nav {
+        padding: 20px 35px;
+    }
+    .header__nav.main__nav li:last-child {
+        right: 0;
+    } 
+    .toggle__menu__button{
+        top: 5px;
+    }
+}
+@media (max-width: 600px) and (orientation: landscape){
+    .nav__brand .top__logo {
+        width: 108px;
+    }
+}

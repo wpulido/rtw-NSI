@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 35.9 35.2" style="enable-background:new 0 0 35.9 35.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#015D5D;}
+	.st2{fill:#FFFFFF;}
+	.st3{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st4{clip-path:url(#SVGID_2_);fill:#015D5D;}
+	.st5{fill:none;stroke:#015D5D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{clip-path:url(#SVGID_4_);}
+</style>
+<text transform="matrix(1 0 0 1 128.811 170.2183)" class="st1" style="font-family:'Poppins-Bold'; font-size:18px;">Community Building</text>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="69.5" y="149.3" width="54" height="32.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<g>
+				<rect x="81.2" y="158.8" class="st1" width="3" height="24"/>
+				
+					<rect x="108.7" y="158.8" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 220.4276 341.5498)" class="st1" width="3" height="24"/>
+			</g>
+			<rect x="83.5" y="160.8" class="st2" width="26" height="1.8"/>
+			<rect x="83.5" y="164.3" class="st2" width="26" height="1.8"/>
+			<rect x="83.5" y="167.8" class="st2" width="26" height="1.8"/>
+			<rect x="83.5" y="171.4" class="st2" width="26" height="1.8"/>
+			<rect x="83.5" y="174.9" class="st2" width="26" height="1.8"/>
+		</g>
+		<rect x="94.5" y="176.8" class="st3" width="4" height="7"/>
+		<rect x="85.7" y="154.3" class="st4" width="3" height="28"/>
+		
+			<rect x="104.2" y="154.3" transform="matrix(-1 -4.486867e-11 4.486867e-11 -1 211.4276 336.5498)" class="st4" width="3" height="28"/>
+		<rect x="88" y="156.8" class="st3" width="17" height="2"/>
+		<rect x="88" y="160.8" class="st3" width="17" height="2"/>
+		<rect x="88" y="164.8" class="st3" width="17" height="2"/>
+		<rect x="88" y="168.8" class="st3" width="17" height="2"/>
+		<rect x="88" y="172.8" class="st3" width="17" height="2"/>
+	</g>
+	<g>
+		<rect x="90" y="148.8" class="st1" width="13" height="33"/>
+	</g>
+	<rect x="92" y="151.8" class="st2" width="9" height="2"/>
+	<rect x="92" y="156.8" class="st2" width="9" height="2"/>
+	<rect x="92" y="161.8" class="st2" width="9" height="2"/>
+	<rect x="92" y="166.8" class="st2" width="9" height="2"/>
+	<rect x="92" y="171.8" class="st2" width="9" height="2"/>
+</g>
+<text transform="matrix(1 0 0 1 132.811 101.2183)" class="st1" style="font-family:'Poppins-Bold'; font-size:18px;">Housing Justice</text>
+<polyline class="st5" points="1.5,15.7 18.4,1.5 34.4,14.7 "/>
+<g>
+	<polygon class="st1" points="31.7,17 18.4,6 4.2,17.9 4.2,33.5 31.7,33.5 	"/>
+</g>
+<g>
+	<defs>
+		<polygon id="SVGID_3_" points="31.7,17 18.4,6 4.2,17.9 4.2,33.5 31.7,33.5 		"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st6">
+		<path class="st2" d="M37.9,40.9L37.9,40.9c-0.7,0.7-1.8,0.7-2.5,0L18.7,24.2l2.5-2.5l16.7,16.7C38.6,39.1,38.6,40.2,37.9,40.9z"/>
+		
+			<rect x="12.8" y="17.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.4376 18.5725)" class="st2" width="9.8" height="6.7"/>
+		<g>
+			<path class="st2" d="M18.9,13.3l-0.2,0.2l6.1,6.1l0.2-0.2c0.6-0.6,0.6-1.6,0-2.3l-3.9-3.9C20.6,12.7,19.6,12.7,18.9,13.3z"/>
+			<path class="st2" d="M10.5,21.7l-0.2,0.2c-0.6,0.6-0.6,1.6,0,2.3l3.9,3.9c0.6,0.6,1.6,0.6,2.3,0l0.2-0.2L10.5,21.7z"/>
+		</g>
+	</g>
+</g>
+</svg>
